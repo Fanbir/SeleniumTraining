@@ -12,7 +12,7 @@ import java.util.List;
 public class SearchPage {
 
     private static final By RESULTS_LIST = By.className("b-results-list");
-    private static final By RESULT = By.cssSelector("h3>a[target]");
+    private static final By RESULT = By.cssSelector(".vacancy-serp-item__title");
 
 
     public static boolean checkLinkText(WebDriver driver, String linkText) {
